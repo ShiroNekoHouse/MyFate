@@ -1,0 +1,109 @@
+/root/anaconda3/envs/Fate3/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Get in base workflow initialize
+@ initialize model
+@ create encrypt OT host
+Finish predict parameter check!
+Finish evaluation parameter check!
+Finish workerflow parameter check!
+The Host job id is 16
+The Host work mode id is 0
+2020-09-09 05:28:11.489188: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+reallossgradB
+[[-0.63702014 -1.14991967  0.00885658 ...  0.05640993 -0.79915154
+  -1.00580975]
+ [-0.65784721 -1.17400504 -0.0043664  ...  0.0441123  -0.82091788
+  -1.03691992]
+ [ 0.68823865  1.29255293 -0.0214689  ... -0.11284215  0.87409686
+   1.12427304]
+ ...
+ [ 0.71281139  1.29353872 -0.03435538 ... -0.11421558  0.88952774
+   1.16413933]
+ [ 0.70084552  1.25858824 -0.02041492 ... -0.09812996  0.87037176
+   1.14258927]
+ [-0.62775774 -1.13324494  0.00865393 ...  0.05534001 -0.78759299
+  -0.99093582]]
+[1;31mError at position i = 0, k = 0, with X0 = da and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 25 and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 25 and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = da and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 25 and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = da and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 25 and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = da and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = da and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 25 and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 25 and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = da and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = da and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 25 and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = da and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 25 and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = da and res = 0. All values: 
+X0: 0101101111101000
+X1: 1010010010111000
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+lossgradB===
+[[-0.63702309 -1.14992017  0.00885655 ...  0.05641013 -0.79915151
+  -1.0058072 ]
+ [-0.65784986 -1.17400224 -0.00436654 ...  0.04411205 -0.82091772
+  -1.03691706]
+ [ 0.68823589  1.2925493  -0.02146897 ... -0.11284245  0.8740936
+   1.12428047]
+ ...
+ [ 0.71280468  1.29353917 -0.03435544 ... -0.11421567  0.88952418
+   1.16413791]
+ [ 0.70084038  1.25858446 -0.02041498 ... -0.09812969  0.87037094
+   1.14259047]
+ [-0.62776681 -1.1332489   0.00865392 ...  0.0553403  -0.78759572
+  -0.99093919]]
+/root/anaconda3/envs/Fate3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)

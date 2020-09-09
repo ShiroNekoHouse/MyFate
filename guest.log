@@ -1,0 +1,110 @@
+/root/anaconda3/envs/Fate3/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Get in base workflow initialize
+@ initialize model
+@ create encrypt OT guest
+Finish predict parameter check!
+Finish evaluation parameter check!
+Finish workerflow parameter check!
+The Guest job id is 16
+The Guest work mode id is 0
+2020-09-09 05:28:11.607138: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+reallossgrads====
+[[-0.49352833 -0.41009032  0.41484901 ...  0.20923468 -0.31846795
+  -0.59474436]
+ [-0.46228006 -0.38524205  0.38360383 ...  0.20899796 -0.31879777
+  -0.6027272 ]
+ [ 0.43573147  0.36159586 -0.42988337 ... -0.21865431  0.25822349
+   0.56940227]
+ ...
+ [-0.46227834 -0.3791761   0.41484906 ...  0.21100563 -0.28803771
+  -0.57560007]
+ [-0.46227834 -0.3791761   0.41484906 ...  0.21100563 -0.28803771
+  -0.57560007]
+ [ 0.46227834  0.3791761  -0.41484906 ... -0.21100563  0.28803771
+   0.57560007]]
+realloss:===
+3414.8317475931985
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+loss_grads
+[[-0.49356061 -0.41007246  0.41487306 ...  0.209246   -0.31852054
+  -0.59473864]
+ [-0.46231234 -0.38522419  0.38362788 ...  0.20900928 -0.31885036
+  -0.60272148]
+ [ 0.43576375  0.36157799 -0.42990742 ... -0.21866563  0.25827609
+   0.56939654]
+ ...
+ [-0.46231062 -0.37915823  0.41487311 ...  0.21101695 -0.2880903
+  -0.57559435]
+ [-0.46231062 -0.37915823  0.41487311 ...  0.21101695 -0.2880903
+  -0.57559435]
+ [ 0.46231062  0.37915823 -0.41487311 ... -0.21101695  0.2880903
+   0.57559435]]
+[1;31mError at position i = 0, k = 0, with X1 = b9 and res = 0. All values: 
+X0: 1000010011101000
+X1: 1001110100101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = e8 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0001011100010100
+[0m[1;31mError at position i = 0, k = 0, with X1 = be and res = 0. All values: 
+X0: 1000010011101000
+X1: 0111110111001100
+[0m[1;31mError at position i = 0, k = 0, with X1 = e3 and res = 0. All values: 
+X0: 1000010011101000
+X1: 1100011101101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 5e and res = 0. All values: 
+X0: 1000010011101000
+X1: 0111101011011100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 26 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0110010010111100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 85 and res = 0. All values: 
+X0: 1000010011101000
+X1: 1010000100000100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 34 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0010110010111100
+[0m[1;31mError at position i = 0, k = 0, with X1 = fa and res = 0. All values: 
+X0: 1000010011101000
+X1: 0101111101110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 60 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0000011010100100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 72 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0100111011111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 66 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0110011010110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 96 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0110100111011100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 5e and res = 0. All values: 
+X0: 1000010011101000
+X1: 0111101011011100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 26 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0110010010111100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 5e and res = 0. All values: 
+X0: 1000010011101000
+X1: 0111101011011100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 26 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0110010010111100
+[0m
