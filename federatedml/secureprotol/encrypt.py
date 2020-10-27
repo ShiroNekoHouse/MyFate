@@ -193,6 +193,40 @@ class PaillierEncrypt(Encrypt):
         else:
             return None
 
+class ECCEncrypt(Encrypt):
+    def __init__(self):
+        super(ECCEncrypt, self).__init__()
+
+    def generate_key(self, n_length=1024):
+        self.public_key, self.privacy_key = \
+            ECCKeypair.generate_keypair(n_length=n_length)
+
+    def get_key_pair(self):
+        return self.public_key, self.privacy_key
+
+    def set_public_key(self, public_key):
+        self.public_key = public_key
+
+    def get_public_key(self):
+        return self.public_key
+
+    def set_privacy_key(self, privacy_key):
+        self.privacy_key = privacy_key
+
+    def get_privacy_key(self):
+        return self.privacy_key
+
+    def encrypt(self, value):
+        if self.public_key is not None:
+            return self.public_key.encrypt(value)
+        else:
+            return None
+
+    def decrypt(self, value):
+        if self.privacy_key is not None:
+            return self.privacy_key.decrypt(value)
+        else:
+            return None
 
 class FakeEncrypt(Encrypt):
     def encrypt(self, value):

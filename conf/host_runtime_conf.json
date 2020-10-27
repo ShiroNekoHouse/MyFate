@@ -59,7 +59,7 @@
     "FTLModelParam": {
             "eps": 0.1,
             "alpha": 100,
-            "max_iter": 1,
+            "max_iter": 10,
             "is_encrypt": true,
             "enc_ftl": "enc_ot"
     },

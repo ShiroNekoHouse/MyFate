@@ -6,25 +6,9 @@ Get in base workflow initialize
 Finish predict parameter check!
 Finish evaluation parameter check!
 Finish workerflow parameter check!
-The Guest job id is 16
+The Guest job id is 8
 The Guest work mode id is 0
-2020-09-09 05:28:11.607138: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-reallossgrads====
-[[-0.49352833 -0.41009032  0.41484901 ...  0.20923468 -0.31846795
-  -0.59474436]
- [-0.46228006 -0.38524205  0.38360383 ...  0.20899796 -0.31879777
-  -0.6027272 ]
- [ 0.43573147  0.36159586 -0.42988337 ... -0.21865431  0.25822349
-   0.56940227]
- ...
- [-0.46227834 -0.3791761   0.41484906 ...  0.21100563 -0.28803771
-  -0.57560007]
- [-0.46227834 -0.3791761   0.41484906 ...  0.21100563 -0.28803771
-  -0.57560007]
- [ 0.46227834  0.3791761  -0.41484906 ... -0.21100563  0.28803771
-   0.57560007]]
-realloss:===
-3414.8317475931985
+2020-10-27 07:02:13.606763: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
 [1;31mError: Receiver notified us of failed OT verification.[0m
 [1;31mError: Receiver notified us of failed OT verification.[0m
 [1;31mError: Receiver notified us of failed OT verification.[0m
@@ -40,71 +24,582 @@ realloss:===
 [1;31mError: Receiver notified us of failed OT verification.[0m
 [1;31mError: Receiver notified us of failed OT verification.[0m
 [1;31mError: Receiver notified us of failed OT verification.[0m
-[1;31mError: Receiver notified us of failed OT verification.[0m
-[1;31mError: Receiver notified us of failed OT verification.[0m
-loss_grads
-[[-0.49356061 -0.41007246  0.41487306 ...  0.209246   -0.31852054
-  -0.59473864]
- [-0.46231234 -0.38522419  0.38362788 ...  0.20900928 -0.31885036
-  -0.60272148]
- [ 0.43576375  0.36157799 -0.42990742 ... -0.21866563  0.25827609
-   0.56939654]
- ...
- [-0.46231062 -0.37915823  0.41487311 ...  0.21101695 -0.2880903
-  -0.57559435]
- [-0.46231062 -0.37915823  0.41487311 ...  0.21101695 -0.2880903
-  -0.57559435]
- [ 0.46231062  0.37915823 -0.41487311 ... -0.21101695  0.2880903
-   0.57559435]]
-[1;31mError at position i = 0, k = 0, with X1 = b9 and res = 0. All values: 
+[1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
 X0: 1000010011101000
-X1: 1001110100101100
-[0m[1;31mError at position i = 0, k = 0, with X1 = e8 and res = 0. All values: 
+X1: 1010110101101100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
 X0: 1000010011101000
-X1: 0001011100010100
-[0m[1;31mError at position i = 0, k = 0, with X1 = be and res = 0. All values: 
+X1: 0111010110111100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
 X0: 1000010011101000
-X1: 0111110111001100
-[0m[1;31mError at position i = 0, k = 0, with X1 = e3 and res = 0. All values: 
+X1: 0101111101000100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
 X0: 1000010011101000
-X1: 1100011101101100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 5e and res = 0. All values: 
+X1: 0001100000110100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
 X0: 1000010011101000
-X1: 0111101011011100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 26 and res = 0. All values: 
+X1: 0100001110111100
+[0m[1;31mError at position i = [1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
 X0: 1000010011101000
-X1: 0110010010111100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 85 and res = 0. All values: 
+X1: 1000011111000100
+[0m0, k = 0, with X0 = 21 and res = 0. All values: 
 X0: 1000010011101000
-X1: 1010000100000100
+X1: 0000010010111100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
+X0: 1000010011101000
+X1: 1001001111011100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
+X0: 1000010011101000
+X1: 1111001100000100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
+X0: 1000010011101000
+X1: 1001100001111100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 21 and res = 0. All values: 
+X0: 1000010011101000
+X1: 0000010010111100
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError at position i = 0, k = 0, with X1 = 3c and res = 0. All values: 
+X0: 1100100000110000
+X1: 0011110010001000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 8f and res = 0. All values: 
+X0: 1100100000110000
+X1: 1111000101110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 6b and res = 0. All values: 
+X0: 1100100000110000
+X1: 1101011011101000
+[0m[1;31mError at position i = 0, k = 0, with X1 = c7 and res = 0. All values: 
+X0: 1100100000110000
+X1: 1110001110100100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 8d and res = 0. All values: 
+X0: 1100100000110000
+X1: 1011000110110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 45 and res = 0. All values: 
+X0: 1100100000110000
+X1: 1010001001110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = ba and res = 0. All values: 
+X0: 1100100000110000
+X1: 0101110101111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = c0 and res = 0. All values: 
+X0: 1100100000110000
+X1: 0000001110001100
+[0m[1;31mError at position i = 0, k = 0, with X1 = bd and res = 0. All values: 
+X0: 1100100000110000
+X1: 1011110101101000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 4 and res = 0. All values: 
+X0: 1100100000110000
+X1: 0010000000000100
+[0m[1;31mError at position i = 0, k = 0, with X1 = a and res = 0. All values: 
+X0: 1100100000110000
+X1: 0101000011001100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 8f and res = 0. All values: 
+X0: 1100100000110000
+X1: 1111000101110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = c7 and res = 0. All values: 
+X0: 1100100000110000
+X1: 1110001110100100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 45 and res = 0. All values: 
+X0: 1100100000110000
+X1: 1010001001110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = bd and res = 0. All values: 
+X0: 1100100000110000
+X1: 1011110101101000
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 0010110000100100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 1111001110101100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 0011000100011100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 0111011000011100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 0111111000011100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 1011110111101100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 1101011110111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 0000001111010100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 1100111111000100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 0010101010101100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 0111011000011100
+[0m[1;31mError at position i = 0, k = 0, with X0 = d1 and res = 0. All values: 
+X0: 1000101110001000
+X1: 0010101010101100
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 1110101111010010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 0001010101010100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 1001000111010010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 1101100010000010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 0100110001001100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 1010011111010010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 1110000011101100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 0111101000010010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 1000100010000010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 0100101001101100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 0111111010110100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 0100110001001100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 34 and res = 0. All values: 
+X0: 0010110010100100
+X1: 0111111010110100
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError at position i = 0, k = 0, with X1 = 8e and res = 0. All values: 
+X0: 1100001101000100
+X1: 0111000110111100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 84 and res = 0. All values: 
+X0: 1100001101000100
+X1: 0010000101110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 41 and res = 0. All values: 
+X0: 1100001101000100
+X1: 1000001000101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 37 and res = 0. All values: 
+X0: 1100001101000100
+X1: 1110110001111100
+[0m[1;31mError at position i = 0, k = 0, with X1 = f8 and res = 0. All values: 
+X0: 1100001101000100
+X1: 0001111111110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 8d and res = 0. All values: 
+X0: 1100001101000100
+X1: 1011000110110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = d3 and res = 0. All values: 
+X0: 1100001101000100
+X1: 1100101100010010
+[0m[1;31mError at position i = 0, k = 0, with X1 = e5 and res = 0. All values: 
+X0: 1100001101000100
+X1: 1010011110001100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 50 and res = 0. All values: 
+X0: 1100001101000100
+X1: 0000101011101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = bd and res = 0. All values: 
+X0: 1100001101000100
+X1: 1011110101010100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 3 and res = 0. All values: 
+X0: 1100001101000100
+X1: 1100000001101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 84 and res = 0. All values: 
+X0: 1100001101000100
+X1: 0010000101110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 41 and res = 0. All values: 
+X0: 1100001101000100
+X1: 1000001000101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = f8 and res = 0. All values: 
+X0: 1100001101000100
+X1: 0001111111110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = f8 and res = 0. All values: 
+X0: 1100001101000100
+X1: 0001111111110100
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError at position i = 0, k = 0, with X1 = f5 and res = 0. All values: 
+X0: 1110100010001000
+X1: 1010111111101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 81 and res = 0. All values: 
+X0: 1110100010001000
+X1: 1000000110011000
+[0m[1;31mError at position i = 0, k = 0, with X1 = b8 and res = 0. All values: 
+X0: 1110100010001000
+X1: 0001110111000100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 1c and res = 0. All values: 
+X0: 1110100010001000
+X1: 0011100010101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 54 and res = 0. All values: 
+X0: 1110100010001000
+X1: 0010101000010100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 59 and res = 0. All values: 
+X0: 1110100010001000
+X1: 1001101001111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = d1 and res = 0. All values: 
+X0: 1110100010001000
+X1: 1000101111101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 77 and res = 0. All values: 
+X0: 1110100010001000
+X1: 1110111011011000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 2f and res = 0. All values: 
+X0: 1110100010001000
+X1: 1111010010110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = d0 and res = 0. All values: 
+X0: 1110100010001000
+X1: 0000101101101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 3d and res = 0. All values: 
+X0: 1110100010001000
+X1: 1011110001101100
 [0m[1;31mError at position i = 0, k = 0, with X1 = 34 and res = 0. All values: 
-X0: 1000010011101000
-X1: 0010110010111100
-[0m[1;31mError at position i = 0, k = 0, with X1 = fa and res = 0. All values: 
-X0: 1000010011101000
-X1: 0101111101110100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 60 and res = 0. All values: 
-X0: 1000010011101000
-X1: 0000011010100100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 72 and res = 0. All values: 
-X0: 1000010011101000
-X1: 0100111011111000
-[0m[1;31mError at position i = 0, k = 0, with X1 = 66 and res = 0. All values: 
-X0: 1000010011101000
-X1: 0110011010110100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 96 and res = 0. All values: 
-X0: 1000010011101000
-X1: 0110100111011100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 5e and res = 0. All values: 
-X0: 1000010011101000
-X1: 0111101011011100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 26 and res = 0. All values: 
-X0: 1000010011101000
-X1: 0110010010111100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 5e and res = 0. All values: 
-X0: 1000010011101000
-X1: 0111101011011100
-[0m[1;31mError at position i = 0, k = 0, with X1 = 26 and res = 0. All values: 
-X0: 1000010011101000
-X1: 0110010010111100
+X0: 1110100010001000
+X1: 0010110001000100
+[0m[1;31mError at position i = 0, k = 0, with X1 = da and res = 0. All values: 
+X0: 1110100010001000
+X1: 0101101101000100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 4a and res = 0. All values: 
+X0: 1110100010001000
+X1: 0101001010000100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 1 and res = 0. All values: 
+X0: 1110100010001000
+X1: 1000000010101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = de and res = 0. All values: 
+X0: 1110100010001000
+X1: 0111101101111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = b6 and res = 0. All values: 
+X0: 1110100010001000
+X1: 0110110100011000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 82 and res = 0. All values: 
+X0: 1110100010001000
+X1: 0100000111011000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 18 and res = 0. All values: 
+X0: 1110100010001000
+X1: 0001100001101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = f5 and res = 0. All values: 
+X0: 1110100010001000
+X1: 1010111111101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 2f and res = 0. All values: 
+X0: 1110100010001000
+X1: 1111010010110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 34 and res = 0. All values: 
+X0: 1110100010001000
+X1: 0010110001000100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 4a and res = 0. All values: 
+X0: 1110100010001000
+X1: 0101001010000100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 1 and res = 0. All values: 
+X0: 1110100010001000
+X1: 1000000010101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = de and res = 0. All values: 
+X0: 1110100010001000
+X1: 0111101101111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 34 and res = 0. All values: 
+X0: 1110100010001000
+X1: 0010110001000100
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError at position i = 0, k = 0, with X1 = 12 and res = 0. All values: 
+X0: 1011101001001000
+X1: 0100100010011100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 53 and res = 0. All values: 
+X0: 1011101001001000
+X1: 1100101001101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 99 and res = 0. All values: 
+X0: 1011101001001000
+X1: 1001100110110100
+[0m[1;31mError at position i = 0, k = 0, with X1 = b and res = 0. All values: 
+X0: 1011101001001000
+X1: 1101000001111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 13 and res = 0. All values: 
+X0: 1011101001001000
+X1: 1100100010111000
+[0m[1;31mError at position i = 0, k = 0, with X1 = 2 and res = 0. All values: 
+X0: 1011101001001000
+X1: 0100000011000100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 4d and res = 0. All values: 
+X0: 1011101001001000
+X1: 1011001000011100
+[0m[1;31mError at position i = 0, k = 0, with X1 = ae and res = 0. All values: 
+X0: 1011101001001000
+X1: 0111010101101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 1b and res = 0. All values: 
+X0: 1011101001001000
+X1: 1101100000100100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 57 and res = 0. All values: 
+X0: 1011101001001000
+X1: 1110101011101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 35 and res = 0. All values: 
+X0: 1011101001001000
+X1: 1010110000010100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 4f and res = 0. All values: 
+X0: 1011101001001000
+X1: 1111001000100100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 6e and res = 0. All values: 
+X0: 1011101001001000
+X1: 0111011011101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 53 and res = 0. All values: 
+X0: 1011101001001000
+X1: 1100101001101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = ae and res = 0. All values: 
+X0: 1011101001001000
+X1: 0111010101101100
+[0m[1;31mError at position i = 0, k = 0, with X1 = 6e and res = 0. All values: 
+X0: 1011101001001000
+X1: 0111011011101100
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 0110100011010100
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 1110000100111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 1111001101111000
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 1010010111101100
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 1110001100000100
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 1010110110000100
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 0011010101011000
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 1001100010001100
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 0000100110100100
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 1000011110000100
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 0110100011010100
+[0m[1;31mError at position i = 0, k = 0, with X0 = c6 and res = 0. All values: 
+X0: 0110001111001000
+X1: 1110000100111000
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 1101000010000010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 1110110101010100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 1101100101000010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0001000111010100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 1100101101011100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0110010010100010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0111010110100010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 1000111100100010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0010000010110100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 1000011101010100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 1010011010011100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0111011000100010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0101101100111100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0110010010100010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0111010110100010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0010000010110100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0111011000100010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 40 and res = 0. All values: 
+X0: 0000001011111000
+X1: 0010000010110100
+[0m[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError: Receiver notified us of failed OT verification.[0m
+[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 0111001011000010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 1011111101000010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 1111100000010100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 1010001001110100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 0111011111001100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 1100110001110100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 0010100101111100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 0010111001101100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 1011100101111100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 1111101010010100
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 0111001011000010
+[0m[1;31mError at position i = 0, k = 0, with X0 = 8a and res = 0. All values: 
+X0: 0101000100111000
+X1: 1011111101000010
 [0m

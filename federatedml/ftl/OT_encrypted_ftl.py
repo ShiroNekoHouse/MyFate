@@ -228,8 +228,8 @@ class OTEncryptedFTLGuestModel(PartyModelInterface): #uB*phi, phi as a choice
         loss_grad_A[self.non_overlap_indexes, :] = grad_A_nonoverlap
         loss_grad_A[self.overlap_indexes, :] = grad_A_overlap
         loss_grads = loss_grad_A
-        print("reallossgrads====")
-        print(loss_grads)
+        # print("reallossgrads====")
+        # print(loss_grads)
         #self.localModel.backpropogate(self.X, self.y, loss_grad_A)
 
     #New!!!
@@ -317,8 +317,8 @@ class OTEncryptedFTLGuestModel(PartyModelInterface): #uB*phi, phi as a choice
         loss_grad_A[self.overlap_indexes, :] = grad_A_overlap
         
         self.loss_grads = loss_grad_A
-        print("loss_grads")
-        print(self.loss_grads)
+        # print("loss_grads")
+        # print(self.loss_grads)
         self.localModel.backpropogate(self.X, self.y, loss_grad_A)
 
     def send_gradient_shares(self):
@@ -373,8 +373,8 @@ class OTEncryptedFTLGuestModel(PartyModelInterface): #uB*phi, phi as a choice
         loss_y = self.__compute_loss_y(self.uB_overlap, self.y_overlap, self.phi)
         #self.loss = self.alpha * loss_y + loss_overlap
         loss = self.alpha * loss_y + loss_overlap
-        print("realloss:===")
-        print(loss)
+        # print("realloss:===")
+        # print(loss)
 
     #New!!
     def prepare_loss(self):
@@ -656,8 +656,8 @@ class OTEncryptedFTLHostModel(PartyModelInterface):
         l1_grad_B = np.squeeze(uB_overlap_y_overlap_2_phi_2, axis=1) + self.y_overlap_phi
         loss_grad_B = self.alpha * l1_grad_B + self.mapping_comp_A
         loss_grads = loss_grad_B
-        print("reallossgradB")
-        print(loss_grads)
+        # print("reallossgradB")
+        # print(loss_grads)
         # self.localModel.backpropogate(self.X[self.overlap_indexes], None, loss_grad_B)
 
     def prepare_gradient(self):
@@ -694,8 +694,8 @@ class OTEncryptedFTLHostModel(PartyModelInterface):
     def compute_gradients(self,guest_gradient_share_to_host):
         l1_grad_B=self.l1_grad_B_share+guest_gradient_share_to_host# + self.y_overlap_phi
         loss_grad_B = self.alpha * l1_grad_B + self.mapping_comp_A
-        print("lossgradB===")
-        print(loss_grad_B)
+        # print("lossgradB===")
+        # print(loss_grad_B)
         self.loss_grads = loss_grad_B
         self.localModel.backpropogate(self.X[self.overlap_indexes], None, loss_grad_B)
 
